@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+
+
+
+
+RewriteRule ^post/([0-9a-zA-Z]+)$ view-post.php?post=$1 [NC,L]
+RewriteRule ^installation$ install.php [NC,L]
+
+
+
+
+Options -Indexes

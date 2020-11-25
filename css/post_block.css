@@ -1,0 +1,179 @@
+
+
+.post_block{
+	padding: 5 10px;
+	margin: 0 10px 40px 10px;
+	border-radius: 10px;
+}
+
+.post_block:hover{
+	box-shadow: 4px 4px 8px #dddfe2;
+	background: #f7f7f7;
+}
+
+.post_image{
+	max-width: 450px;
+	min-width: 300px;
+}
+
+.post_meta_block{
+	text-align: right;
+	max-width: 95%;
+	font-size: 15px !important;
+	margin-top: 10px;
+}
+
+.post_title_link{
+	color: #02365e !important;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post_desc_block{
+	text-align: center;
+}
+
+.post_desc{
+	text-align: justify;
+	max-width: 90%;
+	display: inline-block;
+}
+
+.after_post_divider{
+	min-height: 10px;
+	display: block !important;
+	border-bottom: solid #333 3px;
+	margin: 0 10px !important;
+}
+
+#post_meta_category{
+	color: #00825b;
+	text-decoration: none;
+}
+
+#post_meta_author{
+	color: #7e0082;
+}
+
+#post_meta_date{
+	color: #888;
+}
+
+.post_read_more_block{
+	margin: 0 15px 0 0;
+	text-align: right;
+}
+
+.read_more_btn_home{
+	background: white;
+	border: solid white 2px;
+	text-align: center;
+	color: white;
+	background: #007aab;
+	box-shadow: 0 0 4px 1px #007aab;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
+.read_more_btn_home:hover{
+	box-shadow: 0 0 4px 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.post_block{
+	padding: 5 10px;
+	margin: 0 4px 20px 4px;
+	border-radius: 10px;
+}
+
+.post_block:hover{
+	box-shadow: 4px 4px 8px #dddfe2;
+	background: #f7f7f7;
+}
+
+.post_image{
+	max-width: 82%;
+	width: 82%;
+	min-width: 200px;
+}
+
+.post_meta_block{
+	text-align: right;
+	max-width: 95%;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.post_title_link{
+	color: #02365e !important;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.post_desc_block{
+	text-align: center;
+}
+
+.post_desc{
+	text-align: justify;
+	max-width: 90%;
+	display: inline-block;
+}
+
+.after_post_divider{
+	min-height: 10px;
+	display: block !important;
+	border-bottom: solid #333 3px;
+	margin: 0 10px !important;
+}
+
+#post_meta_category{
+	color: #00825b;
+	text-decoration: none;
+}
+
+#post_meta_author{
+	color: #7e0082;
+}
+
+#post_meta_date{
+	color: #888;
+}
+
+.post_read_more_block{
+	margin: 0 15px 0 0;
+	text-align: right;
+}
+
+.post_read_more_block a{
+	background: white;
+	border: solid white 2px;
+	text-align: center;
+	color: white;
+	background: #007aab;
+	box-shadow: 0 0 4px 1px #007aab;
+	font-size: 17px;
+	text-decoration: none;
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
+.post_read_more_block a:hover{
+	box-shadow: 0 0 4px 1px black;
+}
+}

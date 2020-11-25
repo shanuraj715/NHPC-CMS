@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #888;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #333;
+	border-radius: 5px;
+}
+
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	/*max-width: 100%;*/
+	/*overflow-x: hidden;*/
+}
+
+.header_container{
+	text-align: center;
+}
+
+.header_sub_container{
+	max-width: 90%;
+	width: 90%;
+	display: inline-flex;
+}
+
+.header_block{
+	display: inline-block;
+}
+
+.header_block_right, .social_links{
+	display: inline-block;
+	text-align: right;
+	flex-grow: 25;
+}
+
+.header_logo_image{
+	max-width: 150px;
+}
+
+.header_top_btn{
+	padding: 5px 10px;
+	background: white;
+	border-right: 8px;
+	text-decoration: none;
+	color: black;
+}
+
+.header_top_btn:hover{
+	border-bottom: solid #a8a032 3px;
+}
+
+.social_links{
+	margin-top: 20px;
+}
+
+.social_links a{
+	text-decoration: none;
+}
+
+.social_links a img{
+	max-width: 40px;
+	margin: 0 3px;
+	padding-bottom: 2px;
+	border-bottom: solid white 3px;
+}
+
+.social_links a img:hover{
+	border-bottom: solid red 3px;
+}
+
+.page_container{
+	display: flex;
+	text-align: center;
+	min-height: 65vh;
+}
+
+.posts_container{
+	max-width: 90%;
+	width: 90%;
+	flex-grow: 5;
+	overflow-x: hidden;
+	margin: 0 1px 0 0;
+}
+
+.post_search_title_block{
+	padding: 5px 0;
+	background: #dbdbdb;
+	margin-bottom: 15px;
+}
+
+.post_search_title{
+	color: #00302e;
+	padding: 10px 0;
+	font-size: 22px;
+}
+
+.err_404_block{
+	display: block;
+}
+
+.error404{
+	width: 100%;
+	max-width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.header_sub_container{
+	max-width: 100%;
+	width: 100%;
+	display: inline-flex;
+}
+.header_logo_image{
+	max-width: 100px;
+	min-width: 100px;
+}
+.header_top_btn{
+	padding: 5px 4px;
+	background: white;
+	border-right: 8px;
+	text-decoration: none;
+	color: black;
+	border-bottom: solid #333 2px;
+	font-size: 14px;
+}
+.social_links a img{
+	max-width: 30px;
+	width: 30px;
+	margin: 0 3px;
+	padding-bottom: 2px;
+	border-bottom: solid white 3px;
+}
+.social_links{
+	margin-top: 10px;
+}
+
+
+
+.page_container{
+	display: grid;
+	display: block;
+	text-align: center;
+	min-height: 65vh;
+}
+.posts_container{
+	display: block;
+	width: 100% !important;
+	max-width: 100% !important;
+	flex-grow: inherit !important;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.post_search_title{
+	color: #00302e;
+	padding: 10px 0;
+	font-size: 15px;
+}
+}

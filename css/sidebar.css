@@ -1,0 +1,185 @@
+
+
+.sidebar_prop{
+	background: #dbdbdb;
+	border-radius: 5px;
+	margin: 15px 0;
+}
+
+.sidebar_container{
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	border: solid #dbdbdb 2px;
+	margin: 0 10px;
+	padding: 20px 6px;
+}
+
+.search_container{
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: 0 0 20px 0;
+}
+
+.sidebar_widget_title_block{
+	text-align: left;
+	padding: 2px 5px;
+	margin: 0 0 5px 0;
+}
+
+.sidebar_widget_title{
+	color: #222;
+	font-size: 22px;
+}
+
+.search_input_box{
+	display: flex;
+}
+
+.search_input{
+	flex-grow: 10;
+	width: 100%;
+	font-size: 20px;
+	padding: 0 5px;
+	border: solid #222 2px;
+	outline: none;
+}
+
+.search_submit{
+	font-size: 20px;
+	background: #222;
+	color: white;
+	border: none;
+}
+
+.sidebar_post_block{
+	display: flex;
+	margin: 4px 0;
+	padding: 2px 0;
+}
+
+.sidebar_post_image{
+	max-width: 80px;
+}
+
+.sidebar_post_title_block{
+	max-height: 80px;
+	overflow-y: hidden;
+	text-align: left;
+	padding: 0 0 0 5px;
+	overflow-y: hidden;
+}
+
+.sidebar_post_title{	
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar_post_title:hover{
+	text-decoration: underline;
+}
+
+.sidebar_post_title_block ul{
+	margin: 0;
+}
+
+@media screen and (max-width: 950px){
+	.sidebar_container{
+		width: 250px;
+		min-width: 250px;
+		max-width: 250px;
+		border: solid #dbdbdb 2px;
+		margin: 0 10px;
+		padding: 20px 6px;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+
+.sidebar_prop{
+background: #dbdbdb;
+border-radius: 5px;
+margin: 15px 0;
+padding: 0 10px;
+}
+
+.sidebar_container{
+	display: block;
+	width: initial !important;
+	min-width: initial !important;
+	max-width: initial !important;
+	/*border: solid #dbdbdb 2px;*/
+	margin: 0;
+	padding: 10px 5px;
+}
+
+.search_container{
+max-width: 100%;
+overflow-x: hidden;
+margin: 0 0 20px 0;
+}
+
+.sidebar_widget_title_block{
+text-align: left;
+padding: 2px 5px;
+margin: 0 0 5px 0;
+}
+
+.sidebar_widget_title{
+color: #222;
+font-size: 22px;
+}
+
+.search_input_box{
+display: flex;
+}
+
+.search_input{
+flex-grow: 10;
+width: 100%;
+font-size: 20px;
+padding: 8px 5px;
+border: solid #222 2px;
+outline: none;
+}
+
+.search_submit{
+font-size: 20px;
+background: #222;
+color: white;
+border: none;
+padding: 0 15px;
+}
+
+.sidebar_post_block{
+display: flex;
+margin: 4px 0;
+padding: 2px 0;
+}
+
+.sidebar_post_image{
+max-width: 80px;
+}
+
+.sidebar_post_title_block{
+max-height: 80px;
+overflow-y: hidden;
+text-align: left;
+padding: 0 0 0 5px;
+overflow-y: hidden;
+}
+
+.sidebar_post_title{	
+text-decoration: none;
+color: black;
+}
+
+.sidebar_post_title:hover{
+text-decoration: underline;
+}
+
+.sidebar_post_title_block ul{
+margin: 0;
+}
+}

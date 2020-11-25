@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+.post_show_container{
+	padding: 15px;
+}
+
+.post_title_block{
+	display: block;
+	padding: 5px 0;
+	margin: 0 15px;
+}
+
+.post_title{
+	color: #00291f;
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+	cursor: pointer;
+}
+
+.post_meta_block{
+	text-align: right;
+	font-size: 18px;
+}
+
+.post_category, .post_author, .post_date{
+	color: #888;
+}
+
+.post_image_block{
+	margin: 20px 10px;
+}
+
+.view_post_image{
+	width: 100%;
+	max-width: 550px;
+}
+
+.post_content_block{
+	margin: 0 20px;
+	padding: 10px;
+}
+
+.post_content{
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.post_tags_block{
+	background: #dbdbdb;
+	margin: 20px;
+	padding: 10px 15px;
+	border-radius: 8px;
+	border: solid black 1px;
+}
+
+.post_tag_title{
+	color: #007055;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tag_link{
+	color: white;
+	text-decoration: none;
+	padding: 2px 10px;
+	background: #525252;
+	margin: 5px 1px;
+	line-height: 35px;
+	border-radius: 5px;
+}
+
+.tag_link:hover{
+	background: #333;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.post_show_container{
+	padding: 15px 2px;
+}
+
+.post_title_block{
+	display: block;
+	padding: 5px 0;
+	margin: 0 2px;
+}
+
+.post_title{
+	color: #00291f;
+	font-size: 21px;
+	font-family: 'Bree Serif', serif;
+	cursor: pointer;
+}
+
+.post_meta_block{
+	text-align: right;
+	font-size: 16px;
+}
+
+.post_category, .post_author, .post_date{
+	color: #888;
+}
+
+.post_image_block{
+	margin: 10px 2px;
+}
+
+.view_post_image{
+	width: 95%;
+	max-width: 550px;
+}
+
+.post_content_block{
+	margin: 0 2px;
+	padding: 4px;
+}
+
+.post_content{
+	line-height: 25px;
+	font-size: 17px;
+	text-align: initial !important;
+}
+
+.post_tags_block{
+	background: #dbdbdb;
+	text-align: left;
+	margin: 5px 2px;
+	padding: 1px 5px;
+	border-radius: 8px;
+	border: solid black 1px;
+}
+
+.post_tag_title{
+	color: #007055;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tag_link{
+	color: white;
+	text-decoration: none;
+	padding: 2px 4px;
+	background: #525252;
+	font-size: 14px;
+	margin: 5px 1px;
+	line-height: 35px;
+	border-radius: 5px;
+}
+
+.tag_link:hover{
+	background: #333;
+}
+
+}

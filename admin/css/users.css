@@ -1,0 +1,202 @@
+
+
+.users_list_container{
+	padding: 10px;
+	margin-top: 20px;
+	overflow: auto;
+	border: solid white 2px;
+}
+
+.users_list_table{
+	border-collapse: separate;
+	border-spacing:0 10px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.users_list_tr_heading{
+	background: #333;
+}
+
+.users_list_th{
+	padding: 4px 6px;
+	color: white;
+	font-size: 17px;
+	margin: 2px 0;
+}
+
+.users_list_td{
+	padding: 2px 3px;
+	overflow: hidden;
+	border-left: solid white 1px;
+}
+
+.users_list_tr:nth-child(odd){
+	background: #bfbfbf;
+}
+
+.users_list_tr:hover{
+	background: #999;
+}
+
+#userid{
+	min-width: 70px;
+}
+
+#fname, #lname{
+	min-width: 80px;
+}
+
+#username{
+	min-width: 140px;
+}
+
+#email{
+	min-width: 150px;
+}
+
+#mobile{
+	min-width: 100px;
+}
+
+#gender, #status{
+	min-width: 80px;
+}
+
+#status{
+	text-align: center;
+}
+
+#role{
+	min-width: 100px;
+}
+
+.account_status_btn{
+	background: #007acc;
+	border: solid white 2px;
+	border-radius: 4px;
+	color: white;
+	padding: 1px 5px;
+}
+
+.account_operation_btn{
+	background: #e74c3c;
+	border: solid white 2px;
+	border-radius: 4px;
+	color: white;
+	padding: 1px 5px;
+}
+
+.update_status_container{
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+	background: rgba(75,75,75,0.7);
+	position: absolute;
+	z-index: 5;
+	border-radius: 15px;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.update_status_block{
+	position: absolute;
+	min-width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	border-radius: 10px;
+	border: solid white 2px;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+.update_title_block{
+	display: flex;
+	padding: 3px 20px;
+	text-align: center;
+	background: #333;
+}
+
+.update_title{
+	flex-grow: 10;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.update_content_block{
+	padding: 10px 20px;
+}
+
+.update_content{
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 30px; 
+}
+
+.close_btn a img{
+	max-width: 22px;
+}
+
+.text2{
+	display: flex;
+	padding: 5px 20px;
+}
+
+.text2 span{
+	flex-grow: 2;
+	font-size: 18px;
+}
+
+.account_status_text_active{
+	text-align: left;
+}
+
+.account_status_text_pending{
+	text-align: right;
+}
+
+.slider{
+	  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25%; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider_container{
+	width: 100%;
+	padding-bottom: 20px;
+}
+

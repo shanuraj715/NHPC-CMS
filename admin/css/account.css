@@ -1,0 +1,17 @@
+
+
+
+
+.radio_btn_disp_flex{
+	display: inline-flex !important;
+}
+
+#radio_btn_block{
+	display: inline-block !important;
+	margin: 0 20px 0 10px;
+}
+
+.gender_text{
+	font-size: 22px;
+	font-weight: bold;
+}

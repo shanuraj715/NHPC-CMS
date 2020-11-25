@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #888;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #333;
+	border-radius: 5px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.dashboard_page_container{
+
+}
+
+.dashboard_top_navbar{
+	width: 100%;
+	display: flex;
+	background: #333;
+	position: fixed;
+	z-index: 10;
+	height: 45px;
+	border-bottom: solid #ff7512 2px;
+}
+
+.navbar_left{
+	display: inline-block;
+}
+
+.cms_title{
+	font-size: 35px;
+	font-family: 'Saira Stencil One', cursive;
+	display: inline-block;
+	line-height: 40px;
+	color: white;
+	padding: 0 10px;
+	text-decoration: none;
+	border-bottom: solid transparent 3px;
+}
+
+.dashboard_content_container{
+	position: relative;
+	display: flex;
+	top: 45px;
+}
+
+.navbar_right_block{
+	flex-grow: 20;
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.navbar_right_elements{
+	display: flex;
+	float: right;
+}
+
+.user_image_nav_block{
+	border-radius: 50%;
+	overflow: hidden;
+	height: 36px;
+	max-height: 36px;
+	max-width: 36px;
+	width: 36px;
+	margin: 1px 0;
+	border: solid white 1px;
+	box-shadow: 0 0 1px 1px #00ffd5;
+}
+
+.user_image_nav{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar_btns{
+	padding: 0;
+	margin: 0 10px;
+	height: 30px;
+	position: relative;
+	top: 8px;
+	color: white;
+	text-decoration: none;
+}
+
+.logout_img_btn{
+	max-height: 30px;
+	margin: 5px 5px;
+}
+
+.bottom_border:hover{
+	border-bottom: solid #12bcff 3px;
+}
+
+.dashboard_sidebar{
+	min-width: 185px;
+	background: #333;
+	min-height: 92vh;
+	display: inline-block;
+	overflow-y: auto;
+	max-height: 100vh;
+	padding: 10px 0;
+}
+
+.dashboard_sidebar::-webkit-scrollbar{
+	width: 0;
+}
+
+.dashboard_sidebar{
+	overflow: -moz-scrollbars-none;
+}
+
+.dashboard_sidebar{
+	-ms-overflow-style: none;
+}
+
+.sidebar_btn_block{
+	font-family: 'Concert One', cursive;
+}
+
+.sidebar_link{
+	padding: 6px 4px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	border-bottom: solid transparent 2px;
+}
+
+.sidebar_link:hover{
+	border-bottom: solid #12bcff 2px;
+	background: rgba(0,0,0,0.5);
+
+}
+
+.sidebar_link_active{
+	border-left: solid red 4px;
+	background: rgba(0,0,0,0.5);
+}
+
+.dashboard_footer_container{
+	position: relative;
+	top: 40px;
+	display: block;
+	text-align: center;
+	background: #333;
+	padding: 5px 0;
+	border-top: solid white; 2px;
+}
+
+.dashboard_footer_text{
+	margin: 10px 0;
+	font-size: 14px;
+	color: white;
+}
+
+.dashboard_dynamic_page_data{
+	flex-grow: 20;
+	padding: 10px;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+.dashboard_dynamic_page_data::-webkit-scrollbar{
+	width: 0 !important;
+}
+
+.dashboard404{
+	text-align: center;
+}
+
+.dashboard404 img{
+	width: 100%;
+	max-width: 800px;
+}
+
+.welcome_block{
+	text-align: center;
+	background: #dbdbdb;
+	min-height: 100%;
+}
+
+.top_title_block{
+	padding: 15px;
+}
+
+.top_title{
+	color: black;
+	font-size: 50px;
+	display: block;
+}
+
+.user_name_text{
+	font-size: 50px;
+	font-family: 'Saira Stencil One', cursive;
+	display: block;
+}
+
+.dashboard_sidebar_divider{
+	margin: 15px 5px;
+	min-height: 5px;
+	border-bottom: solid white 2px;
+}
+
+.notification_text{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn_align_right{
+	display: inline-block;
+	float: right;
+	margin: 5px 20px;
+}
+
+.name_flex_disp_block{
+	display: flex;
+}

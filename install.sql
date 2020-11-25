@@ -1,0 +1,15 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+CREATE TABLE `category` (`cat_id` int(6) NOT NULL,`cat_title` varchar(255) NOT NULL,`_default` int(1) NOT NULL DEFAULT '0' COMMENT 'default can not modify or delete') ENGINE=MyISAM DEFAULT CHARSET=latin1;
+INSERT INTO `category` (`cat_id`, `cat_title`, `_default`) VALUES(1, 'Uncategorized', 1);
+CREATE TABLE `navigation` (`id` int(6) NOT NULL,`title` varchar(255) NOT NULL COMMENT 'title of btn',`url` varchar(255) NOT NULL COMMENT 'url of the link',`parent` int(3) NOT NULL DEFAULT '1' COMMENT 'is this parent 1=yes 0=No',`child` int(3) NOT NULL DEFAULT '0' COMMENT 'if its child then 1=has child 0=no child',`parent_id` int(3) NOT NULL DEFAULT '0' COMMENT 'if child define its parent id',`list_order` int(3) NOT NULL DEFAULT '999') ENGINE=MyISAM DEFAULT CHARSET=latin1;
+CREATE TABLE `posts` (`post_id` int(4) NOT NULL COMMENT 'post unique id',`title` varchar(255) NOT NULL COMMENT 'post title',`author` varchar(255) NOT NULL COMMENT 'post published by',`category` varchar(255) NOT NULL COMMENT 'post category',`status` varchar(255) NOT NULL DEFAULT 'draft' COMMENT 'draft, trash, published',`post_image` varchar(255) NOT NULL COMMENT 'post main image',`tags` text NOT NULL COMMENT 'post tags',`post_date` date DEFAULT NULL,`content` text NOT NULL COMMENT 'post data') ENGINE=MyISAM DEFAULT CHARSET=latin1;
+INSERT INTO `posts` (`post_id`, `title`, `author`, `category`, `status`, `post_image`, `tags`, `post_date`, `content`) VALUES(1111, 'Hello World', 'admin', '1', 'published', 'logo.png', 'hello world post tags, hello world', '2015-01-01', 'This is Default Post. Delete It and Start Posting.');
+CREATE TABLE `users` (`userid` int(6) NOT NULL,`fname` varchar(255) NOT NULL,`lname` varchar(255) NOT NULL,`username` varchar(255) NOT NULL,`password` varchar(255) NOT NULL,`image` varchar(255) NOT NULL DEFAULT '',`email` varchar(255) NOT NULL,`mobile` bigint(20) NOT NULL DEFAULT '0',`gender` varchar(32) NOT NULL DEFAULT '',`age` int(3) NOT NULL DEFAULT '0',`role` varchar(32) NOT NULL,`status` varchar(32) NOT NULL DEFAULT 'pending') ENGINE=MyISAM DEFAULT CHARSET=latin1;
+ALTER TABLE `category` ADD PRIMARY KEY (`cat_id`);
+ALTER TABLE `navigation` ADD PRIMARY KEY (`id`);
+ALTER TABLE `posts` ADD PRIMARY KEY (`post_id`);
+ALTER TABLE `users` ADD PRIMARY KEY (`userid`);
+ALTER TABLE `category` MODIFY `cat_id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+ALTER TABLE `navigation` MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=981;
+ALTER TABLE `posts` MODIFY `post_id` int(4) NOT NULL AUTO_INCREMENT COMMENT 'post unique id', AUTO_INCREMENT=1248;
